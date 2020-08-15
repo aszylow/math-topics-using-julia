@@ -1,6 +1,3 @@
-
-using LinearAlgebra
-
 #=
 Let n = 14. Let A -> partition P(n) = 6 + 4 + 3 + 1 (compositions allowed only 
 when the first summand is the largest).
@@ -9,6 +6,8 @@ Using 1 and 0, represent P(n) as a partition matrix (Ferrers diagram).
 A * B -> symmetric matrix based on original partition [6 4 3 1].
 B * A -> symmetric matrix based on the conjugate of the original partition matrix.
 =#
+
+using LinearAlgebra
 
 function main()
     partition = [6, 4, 3, 1]
